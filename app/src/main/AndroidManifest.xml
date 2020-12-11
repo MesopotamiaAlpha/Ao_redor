@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.senai.ao_redor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sinal"
+            android:label="@string/title_activity_sinal"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.senai.ao_redor.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Lista"
+            android:label="@string/title_activity_lista"
+            android:parentActivityName=".MainActivity"></activity>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.senai.ao_redor.MainActivity" />
+
+
+        <activity
+            android:name=".ItemLista"
+            android:label="@string/title_activity_item_lista"
+            android:parentActivityName=".Lista">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.senai.ao_redor.Lista" />
+        </activity>
+    </application>
+
+</manifest>
