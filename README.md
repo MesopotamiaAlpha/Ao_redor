@@ -3,3 +3,4 @@
 <p>A idéia que tivemos para o projeto foi de criar uma estrutura para mercados/leilão de veiculos onde o usuário recebe no aplicativo todas as informações sobre os produtos em volta dele baseado em sua localização.</p>
 <p>Basicamente o nosso projeto usa uma estrutura de aparelhos bluethoot espalhado no local, um servidor onde os admin podem cadastras as informações sobre os produtos e o aplicativo para fazer toda a consulta e registro dos usuários.</p>
 <img src="https://raw.githubusercontent.com/MesopotamiaAlpha/Ao_redor/master/tcc.gif">
+<img src="https://raw.githubusercontent.com/MesopotamiaAlpha/Ao_redor/master/tcc2.gif">
